@@ -26,7 +26,7 @@ function Home() {
           </a>
           <a
             href='#!'
-            className='font-semibold  text-[16px] text-white bg-[#00966B] rounded-[8px] py-[15px] px-[30px]'
+            className='font-semibold  text-[16px] text-white bg-[#00966B] rounded-[8px] py-[15px] px-[30px] border transition-all hover:bg-inherit hover:border-[#00966B] hover:text-[#00966B]'
           >
             Sign Up
           </a>
