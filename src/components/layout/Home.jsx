@@ -105,11 +105,11 @@ function Home() {
         </div>
       </section>
 
-      <section className='bg-[#f8f9fa] py-20 px-5'>
+      <section className='bg-[#FDFFFE] py-20 px-5'>
         <div className='max-w-[1300px] mx-auto'>
           <div className='flex items-baseline justify-between mb-16'>
             <div className='max-w-[500px]'>
-              <h2 className='text-[#212B36] font-bold text-[42px] font-sen'>
+              <h2 className='text-[#212B36] font-bold text-[42px] font-sen leading-[52px]'>
                 Explore most popular design courses
               </h2>
             </div>
@@ -294,6 +294,255 @@ function Home() {
             <a href='#!'>
               <img src='img/IconActive.png' alt='' />
             </a>
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-[#FDFFFE] py-20 px-5'>
+        <div className='max-w-[1300px] mx-auto'>
+          <div className='max-w-[420px] mx-auto text-center mb-16'>
+            <h1 className='font-sen font-bold text-[42px] text-[#212B36] mb-2'>
+              Benefit you will get
+            </h1>
+            <p className='font-[400] text-[16px] text-[#615D57] leading-[28px]'>
+              Build new skills with cutting-edge courses and excel in your next
+              job.
+            </p>
+          </div>
+
+          <div className='flex gap-[10rem] items-center'>
+            <div className='max-w-[500px]'>
+              <img
+                src='img/smiley-teenage-girl-using-laptop-online-school.png'
+                alt=''
+              />
+            </div>
+
+            <div className='w-1/2'>
+              <div className='grid grid-cols-2 gap-10'>
+                <div className='bg-white p-5 shadow-md transition-all hover:shadow-lg'>
+                  <div className='mb-5'>
+                    <img src='img/Frame32.png' alt='' />
+                  </div>
+                  <h1 className='font-semibold text-[16px] text-[#212B36] mb-1'>
+                    Online Courses
+                  </h1>
+                  <p className='font-[400] text-[14px] text-[#615D57] leading-[26px]'>
+                    We take all the class through zoom, skype etc.
+                  </p>
+                </div>
+
+                <div className='bg-white p-5 shadow-md transition-all hover:shadow-lg'>
+                  <div className='mb-5'>
+                    <img src='img/Frame33.png' alt='' />
+                  </div>
+                  <h1 className='font-semibold text-[16px] text-[#212B36] mb-1'>
+                    Expert Tutors
+                  </h1>
+                  <p className='font-[400] text-[14px] text-[#615D57] leading-[26px]'>
+                    We have world class experts and experienced tutors.
+                  </p>
+                </div>
+
+                <div className='bg-white p-5 shadow-md transition-all hover:shadow-lg'>
+                  <div className='mb-5'>
+                    <img src='img/Frame34.png' alt='' />
+                  </div>
+                  <h1 className='font-semibold text-[16px] text-[#212B36] mb-1'>
+                    Good Methods
+                  </h1>
+                  <p className='font-[400] text-[14px] text-[#615D57] leading-[26px]'>
+                    We follow the best strategy for the online lessons.
+                  </p>
+                </div>
+
+                <div className='bg-white p-5 shadow-md transition-all hover:shadow-lg'>
+                  <div className='mb-5'>
+                    <img src='img/Frame32.png' alt='' />
+                  </div>
+                  <h1 className='font-semibold text-[16px] text-[#212B36] mb-1'>
+                    Best Topics
+                  </h1>
+                  <p className='font-[400] text-[14px] text-[#615D57] leading-[26px]'>
+                    We have selected the best topics for the lessons.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-[#FDFFFE] py-12 px-5'>
+        <div className='max-w-[1300px] mx-auto'>
+          <div className='flex items-center'>
+            <div className='w-1/2'>
+              <h1 className='font-sen font-bold max-w-[500px] text-[42px] text-[#212B36] leading-[52px] mb-5'>
+                Transform your life through education
+              </h1>
+              <p className='font-[400] max-w-[500px] text-[16px] text-[#615D57] leading-[28px] mb-10'>
+                Learners all across the world are starting new careers,
+                progressing in their fields, and improving their lives.
+              </p>
+              <button className='font-semibold bg-[#00966B] text-white text-[16px] rounded-[6px] px-[45px] py-[16px] border transition-all hover:bg-inherit hover:text-[#00966B] hover:border-[#00966B]'>
+                Learn More
+              </button>
+            </div>
+            <div className='w-1/2'>
+              <img src='img/Rectangle56.png' alt='' />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-[#FDFFFE] py-12 px-5'>
+        <div className='max-w-[1300px] mx-auto'>
+          <div className='max-w-[470px] mx-auto text-center mb-12'>
+            <h1 className='font-sen font-bold text-[42px] text-[#212B36] mb-2'>
+              Meet Your Instructors
+            </h1>
+            <p className='font-[400] text-[16px] text-[#615D57] leading-[28px]'>
+              We will train, coach and mentor you. We build tailor-made
+              interactive experiences and brand identities.
+            </p>
+          </div>
+
+          <div className='flex justify-between'>
+            <div className='relative'>
+              <img src='img/Instructor1.png' alt='' />
+              <div className='absolute bottom-[23px] left-[40px]'>
+                <p className='font-sen font-bold text-[15.69px] text-[#c9c9c9]'>
+                  UX INSTRUCTOR
+                </p>
+                <p className='font-[500] text-[27.46px] text-[#FFF]'>
+                  Daniel Joe
+                </p>
+                <div className='flex gap-2'>
+                  <a href='#!'>
+                    <img src='img/LinkedIn.png' alt='' />
+                  </a>
+                  <a href='#!'>
+                    <img src='img/Facebook.png' alt='' />
+                  </a>
+                  <a href='#!'>
+                    <img src='img/Instagram.png' alt='' />
+                  </a>
+                  <a href='#!'>
+                    <img src='img/Twitter.png' alt='' />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className='relative'>
+              <img src='img/Instructor2.png' alt='' />
+              <div className='absolute bottom-[23px] left-[40px]'>
+                <p className='font-sen font-bold text-[15.69px] text-[#c9c9c9]'>
+                  DATA ANALYST
+                </p>
+                <p className='font-[500] text-[27.46px] text-[#FFF]'>
+                  Joy Smith
+                </p>
+                <div className='flex gap-2'>
+                  <a href='#!'>
+                    <img src='img/LinkedIn.png' alt='' />
+                  </a>
+                  <a href='#!'>
+                    <img src='img/Facebook.png' alt='' />
+                  </a>
+                  <a href='#!'>
+                    <img src='img/Instagram.png' alt='' />
+                  </a>
+                  <a href='#!'>
+                    <img src='img/Twitter.png' alt='' />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className='relative'>
+              <img
+                src='img/Instructor3.jfif'
+                alt=''
+                className='rounded-[7px]'
+              />
+              <div className='bg-gradient-to-t from-black/60 absolute inset-0 rounded-[7px]'></div>
+              <div className='absolute bottom-[23px] left-[40px]'>
+                <p className='font-sen font-bold text-[15.69px] text-[#c9c9c9]'>
+                  FRONTEND DEVELOPER
+                </p>
+                <p className='font-[500] text-[27.46px] text-[#FFF]'>
+                  Mark David
+                </p>
+                <div className='flex gap-2'>
+                  <a href='#!'>
+                    <img src='img/LinkedIn.png' alt='' />
+                  </a>
+                  <a href='#!'>
+                    <img src='img/Facebook.png' alt='' />
+                  </a>
+                  <a href='#!'>
+                    <img src='img/Instagram.png' alt='' />
+                  </a>
+                  <a href='#!'>
+                    <img src='img/Twitter.png' alt='' />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='flex items-center justify-end gap-4 mt-5'>
+            <a href='#!'>
+              <img src='img/IconInactive.png' alt='' />
+            </a>
+            <a href='#!'>
+              <img src='img/IconActive.png' alt='' />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-[#FDFFFE] py-12 px-5'>
+        <div className='max-w-[1300px] mx-auto'>
+          <div className='bg-[#141623] rounded-[22px] flex items-center justify-center relative z-10'>
+            <div>
+              <img
+                src='img/Graphics.png'
+                alt=''
+                className='absolute left-0 top-0 w-full h-[21.3rem] -z-10'
+              />
+            </div>
+            <div className='max-w-[650px]'>
+              <h1 className='font-inter font-bold text-[50px] text-white'>
+                Get Our Mobile App Now
+              </h1>
+              <p className='font-inter font-[400] text-[18px] mb-[5rem] text-[#B8BEBD] leading-[28px]'>
+                Discover our mobile app and get the best outcome of online
+                learning and enjoy your everyday’s lesson
+              </p>
+              <div className='flex items-center gap-5'>
+                <button className='flex items-center gap-3 px-[40.925px] py-[10.605px] rounded-[8px] bg-[#00966B]'>
+                  <img src='img/Play.png' alt='' />
+                  <div className='text-left'>
+                    <p className='text-white font-[400] text-[10px]'>
+                      GET IT ON
+                    </p>
+                    <p className='text-white'>Google Play</p>
+                  </div>
+                </button>
+                <button className='flex items-center gap-3 px-[40.925px] py-[10.605px] rounded-[8px] bg-white'>
+                  <img src='img/Apple.png' alt='' />
+                  <div className='text-left'>
+                    <p className='text-black font-[400] text-[10px]'>
+                      Download On
+                    </p>
+                    <p className='text-black'>App Store</p>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div className=''>
+              <img src='img/AppMockup.png' alt='' />
+            </div>
           </div>
         </div>
       </section>
