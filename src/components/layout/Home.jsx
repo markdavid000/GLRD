@@ -373,7 +373,7 @@ function Home() {
         </div>
       </section>
 
-      <section className='bg-[#FDFFFE] py-12 px-5'>
+      <section className='bg-[#FDFFFE] pt-12 pb-20 px-5'>
         <div className='max-w-[1300px] mx-auto'>
           <div className='flex items-center'>
             <div className='w-1/2'>
@@ -395,7 +395,7 @@ function Home() {
         </div>
       </section>
 
-      <section className='bg-[#FDFFFE] py-12 px-5'>
+      <section className='bg-[#FDFFFE] py-20 px-5'>
         <div className='max-w-[1300px] mx-auto'>
           <div className='max-w-[470px] mx-auto text-center mb-12'>
             <h1 className='font-sen font-bold text-[42px] text-[#212B36] mb-2'>
@@ -501,14 +501,14 @@ function Home() {
         </div>
       </section>
 
-      <section className='bg-[#FDFFFE] py-12 px-5'>
+      <section className='bg-[#FDFFFE] py-20 px-5'>
         <div className='max-w-[1300px] mx-auto'>
           <div className='bg-[#141623] rounded-[22px] flex items-center justify-center relative z-10'>
             <div>
               <img
                 src='img/Graphics.png'
                 alt=''
-                className='absolute left-0 top-0 w-full h-[21.3rem] -z-10'
+                className='absolute left-0 top-0 w-full h-[28.4rem] -z-10'
               />
             </div>
             <div className='max-w-[650px]'>
@@ -542,6 +542,39 @@ function Home() {
             </div>
             <div className=''>
               <img src='img/AppMockup.png' alt='' />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-[#00966B] mt-20 py-10 px-5'>
+        <div className='max-w-[1300px] mx-auto'>
+          <div className='flex justify-center'>
+            <div className='text-center'>
+              <div className='max-w-[500px] mx-auto'>
+                <h1 className='font-sen font-bold text-white text-[42px] mb-3'>
+                  Start Learning Today
+                </h1>
+                <p className='font-[400] text-white text-[16px] mb-7 leading-[28px]'>
+                  For more information about our company or if there any other
+                  questions please contact with us
+                </p>
+              </div>
+
+              <form className='bg-white p-3 flex rounded-[8px]'>
+                <input
+                  type='email'
+                  className='w-full focus:outline-none font-semibold text-[16px] text-[##A8A29A]'
+                  placeholder='Your Email Address'
+                  required
+                />
+                <button
+                  type='submit'
+                  className='bg-[#00966B] text-white text-[16px] rounded-[10px] px-[40px] py-[12px] border transition-all hover:bg-inherit hover:text-[#00966B] hover:border-[#00966B]'
+                >
+                  Submit
+                </button>
+              </form>
             </div>
           </div>
         </div>
