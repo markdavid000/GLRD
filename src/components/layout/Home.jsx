@@ -12,7 +12,7 @@ function Home() {
         </a>
 
         <nav className='flex gap-10 items-center'>
-          <a href='#!' className='font-semibold text-[#00966B] text-[16px]'>
+          <a href='#!' className='font-[500] text-[#00966B] text-[16px]'>
             Home
           </a>
           <a href='#!' className='text-gray-800 font-[400] text-[16px]'>
@@ -26,7 +26,7 @@ function Home() {
           </a>
           <a
             href='#!'
-            className='font-semibold  text-[16px] text-white bg-[#00966B] rounded-[8px] py-[15px] px-[30px] border transition-all hover:bg-inherit hover:border-[#00966B] hover:text-[#00966B]'
+            className='font-[500]  text-[16px] text-white bg-[#00966B] rounded-[8px] py-[15px] px-[30px] border transition-all hover:bg-inherit hover:border-[#00966B] hover:text-[#00966B]'
           >
             Sign Up
           </a>
