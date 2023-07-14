@@ -579,6 +579,147 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <footer className='bg-[#08281F] py-10 px-5'>
+        <div className='max-w-[1300px] mx-auto'>
+          <div className='flex justify-between border-b-2 border-[#154235] pb-5'>
+            <div className='flex flex-col'>
+              <a href='#!' className='relative max-w-[100px] mb-5'>
+                <img src='img/FooterLogo.png' alt='' />
+                <div className='absolute -top-2 -right-2 max-w-[40px]'>
+                  <img src='img/graduation-hat-svgrepo-com.png' alt='' />
+                </div>
+              </a>
+
+              <p className='font-[400] text-[18px] text-[#CEC7BD] leading-[30px] max-w-[300px]'>
+                Build new skills for that “this is my year” feeling with
+                courses.
+              </p>
+            </div>
+
+            <div>
+              <h1 className='font-semibold text-[16px] text-white leading-[28px] mb-5'>
+                About
+              </h1>
+              <div className='flex flex-col gap-2'>
+                <a
+                  href='#!'
+                  className='font-[400] text-[14px] text-[#CEC7BD] leading-[26px]'
+                >
+                  About Us
+                </a>
+                <a
+                  href='#!'
+                  className='font-[400] text-[14px] text-[#CEC7BD] leading-[26px]'
+                >
+                  Features
+                </a>
+                <a
+                  href='#!'
+                  className='font-[400] text-[14px] text-[#CEC7BD] leading-[26px]'
+                >
+                  News & Blogs
+                </a>
+              </div>
+            </div>
+            <div>
+              <h1 className='font-semibold text-[16px] text-white leading-[28px] mb-5'>
+                Company
+              </h1>
+              <div className='flex flex-col gap-2'>
+                <a
+                  href='#!'
+                  className='font-[400] text-[14px] text-[#CEC7BD] leading-[26px]'
+                >
+                  How We Work?
+                </a>
+                <a
+                  href='#!'
+                  className='font-[400] text-[14px] text-[#CEC7BD] leading-[26px]'
+                >
+                  Capital
+                </a>
+                <a
+                  href='#!'
+                  className='font-[400] text-[14px] text-[#CEC7BD] leading-[26px]'
+                >
+                  Security
+                </a>
+              </div>
+            </div>
+            <div>
+              <h1 className='font-semibold text-[16px] text-white leading-[28px] mb-5'>
+                Support
+              </h1>
+              <div className='flex flex-col gap-2'>
+                <a
+                  href='#!'
+                  className='font-[400] text-[14px] text-[#CEC7BD] leading-[26px]'
+                >
+                  FAQs
+                </a>
+                <a
+                  href='#!'
+                  className='font-[400] text-[14px] text-[#CEC7BD] leading-[26px]'
+                >
+                  Support Center
+                </a>
+                <a
+                  href='#!'
+                  className='font-[400] text-[14px] text-[#CEC7BD] leading-[26px]'
+                >
+                  Contact Us
+                </a>
+              </div>
+            </div>
+            <div>
+              <h1 className='font-semibold text-[16px] text-white leading-[28px] mb-5'>
+                Movement
+              </h1>
+              <div className='flex flex-col gap-2'>
+                <a
+                  href='#!'
+                  className='font-[400] text-[14px] text-[#CEC7BD] leading-[26px]'
+                >
+                  GLRD?
+                </a>
+                <a
+                  href='#!'
+                  className='font-[400] text-[14px] text-[#CEC7BD] leading-[26px]'
+                >
+                  Support Us
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className='flex justify-between items-center pt-5'>
+            <a
+              href='mailto:davidojukwu59@gmail.com'
+              target='_blank'
+              rel='noreferrer'
+              className='text-[#8B867E] text-[14px] font-[400] leading-[26px]'
+            >
+              © davidojukwu59@gmail.com
+            </a>
+
+            <div className='flex gap-5 items-center'>
+              <a
+                href='#!'
+                className='text-[#8B867E] text-[14px] font-[400] leading-[26px]'
+              >
+                Terms & Agreements
+              </a>
+              <a
+                href='#!'
+                className='text-[#8B867E] text-[14px] font-[400] leading-[26px]'
+              >
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
